@@ -2,7 +2,7 @@
 
 Frontips es una collección de tips de código HTML, CSS o JavaScritp.
 
-- [Responsive Layout](https://github.com/Ninos-labs/Frontips/tree/master/responsive-layout)
+- [Responsive Layout](https://github.com/Ninos-labs/Frontips/tree/master/Responsive-layout)
 
 - [Star wars intro animation](https://github.com/Ninos-labs/Frontips/tree/master/starwars-intro-animation)
 
