@@ -2,39 +2,39 @@
 
 Frontips es una collección de tips de código HTML, CSS o JavaScritp.
 
-- [Responsive Layout](https://github.com/Ninos-labs/CSS-snippets/tree/master/responsive-layout)
+- [Responsive Layout](https://github.com/Ninos-labs/Frontips/tree/master/responsive-layout)
 
-- [Star wars intro animation](https://github.com/Ninos-labs/CSS-snippets/tree/master/starwars-intro-animation)
+- [Star wars intro animation](https://github.com/Ninos-labs/Frontips/tree/master/starwars-intro-animation)
 
-- [:Where() & :is()](https://github.com/Ninos-labs/CSS-snippets/tree/master/where-is-pseudo-classes)
+- [:Where() & :is()](https://github.com/Ninos-labs/Frontips/tree/master/where-is-pseudo-classes)
 
-- [Z-index](https://github.com/Ninos-labs/CSS-snippets/tree/master/z-index)
+- [Z-index](https://github.com/Ninos-labs/Frontips/tree/master/z-index)
 
-- [Random Color](https://github.com/Ninos-labs/CSS-snippets/tree/master/random-color)
+- [Random Color](https://github.com/Ninos-labs/Frontips/tree/master/random-color)
 
-- [Gradient text](https://github.com/Ninos-labs/CSS-snippets/tree/master/gradient-text)
+- [Gradient text](https://github.com/Ninos-labs/Frontips/tree/master/gradient-text)
 
-- [Datalist](https://github.com/Ninos-labs/CSS-snippets/tree/master/data-list)
+- [Datalist](https://github.com/Ninos-labs/Frontips/tree/master/data-list)
 
-- [Perspective text](https://github.com/Ninos-labs/CSS-snippets/tree/master/perspective-text)
+- [Perspective text](https://github.com/Ninos-labs/Frontips/tree/master/perspective-text)
 
-- [Fluid typography](https://github.com/Ninos-labs/CSS-snippets/tree/master/fluid-typography)
+- [Fluid typography](https://github.com/Ninos-labs/Frontips/tree/master/fluid-typography)
 
-- [Mix blend mode](https://github.com/Ninos-labs/CSS-snippets/tree/master/mix-blend-mode-II)
+- [Mix blend mode](https://github.com/Ninos-labs/Frontips/tree/master/mix-blend-mode-II)
 
-- [Blend-mode](https://github.com/Ninos-labs/CSS-snippets/tree/master/blend-modes)
+- [Blend-mode](https://github.com/Ninos-labs/Frontips/tree/master/blend-modes)
 
-- [Multiple drop-shadow](https://github.com/Ninos-labs/CSS-snippets/tree/master/multiple-drop-shadow)
+- [Multiple drop-shadow](https://github.com/Ninos-labs/Frontips/tree/master/Multiple-drop-shadows)
 
-- [clip path](https://github.com/Ninos-labs/CSS-snippets/tree/master/tag-sub-sup-html)
+- [clip path](https://github.com/Ninos-labs/Frontips/tree/master/tag-sub-sup-html)
 
-- [Columns property](https://github.com/Ninos-labs/CSS-snippets/tree/master/columns-property)
+- [Columns property](https://github.com/Ninos-labs/Frontips/tree/master/columns-property)
 
-- [HTML tags sub and sup](https://github.com/Ninos-labs/CSS-snippets/tree/master/tag-sub-sup-html)
+- [HTML tags sub and sup](https://github.com/Ninos-labs/Frontips/tree/master/tag-sub-sup-html)
 
-- [Shape-outside](https://github.com/Ninos-labs/CSS-snippets/tree/master/shape-outside)
+- [Shape-outside](https://github.com/Ninos-labs/Frontips/tree/master/shape-outside)
 
-- [Variable Fonts](https://github.com/Ninos-labs/CSS-snippets/tree/master/variable-fonts)
+- [Variable Fonts](https://github.com/Ninos-labs/Frontips/tree/master/variable-fonts)
 
 ## Youtube channel
 
