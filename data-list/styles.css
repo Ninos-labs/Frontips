@@ -1,0 +1,53 @@
+:root {
+  --bg: #1e2345;
+  --bgLight: #d9e8f0;
+  --blueDark: rgb(67, 89, 129);
+  --pink: #e94bb4;
+  --blue: #83a7bb;
+}
+
+body {
+  background: var(--bg);
+  box-sizing: border-box;
+  color: var(--blueDark);
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 10px;
+}
+
+form {
+  background: var(--bgLight);
+  padding: 1rem 3rem 1rem;
+  margin: 2.5rem auto 0;
+  width: 60%;
+  border-radius: 2rem;
+}
+
+.datalist-wrap {
+  margin: 0 0 2.5rem;
+  overflow: hidden;
+}
+
+.label {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+small {
+  color: var(--blue);
+  font-size: 1.4rem;
+}
+
+.input {
+  background: white;
+  border: 1px solid white;
+  border-radius: 0.8rem;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  height: 60px;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+.input-color {
+  padding: 1rem 1.5rem;
+}

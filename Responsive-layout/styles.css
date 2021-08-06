@@ -1,0 +1,122 @@
+:root {
+  --light: #d9e8f0;
+  --bg: #1e2345;
+  --bg-light: #dbebfa;
+  --pink: #9b29b7;
+  --purple: #3720b4;
+  --purple-light: #8745f6;
+  --blue: #71d4f9;
+  --blue-light: #5ab6f6;
+  --blue-dark: #4763ef;
+  --orange-dark: #e86e3c;
+  --orange: #e7983e;
+  --green: #92ffd8;
+  --ocean: #09d3ef;
+  --font: "Roboto Mono", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: var(--bg-light);
+  color: var(--bg);
+  font-family: var(--font);
+  margin: 0;
+  padding: 4rem 2rem;
+}
+
+:is(h1, h2) {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+  margin-bottom: 8rem;
+}
+
+.grid {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: var(--bg);
+  box-shadow: 0 0.4rem 1.2rem rgba(8, 20, 39, 0.2);
+  padding: 8rem 4rem;
+  border-radius: 2rem;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card:nth-child(1),
+.card:nth-child(8),
+.card:nth-child(14),
+.card:nth-child(18) {
+  background: linear-gradient(to right, var(--orange-dark), var(--orange));
+}
+.card:nth-child(2),
+.card:nth-child(9),
+.card:nth-child(15),
+.card:nth-child(20) {
+  background: linear-gradient(to right, var(--green), var(--ocean));
+}
+.card:nth-child(3),
+.card:nth-child(10),
+.card:nth-child(16),
+.card:nth-child(22) {
+  background: linear-gradient(to right, var(--purple), var(--pink));
+}
+
+.card:nth-child(5),
+.card:nth-child(12),
+.card:nth-child(17),
+.card:nth-child(23) {
+  background: linear-gradient(to right, var(--blue-dark), var(--blue));
+}
+
+.card:nth-child(6),
+.card:nth-child(13),
+.card:nth-child(20),
+.card:nth-child(24) {
+  background: linear-gradient(to right, var(--blue-light), var(--purple-light));
+}
+
+.actions {
+  margin: 6rem 0;
+  text-align: center;
+}
+
+button {
+  background: var(--bg);
+  margin: 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  padding: 2rem;
+  width: 150px;
+  color: white;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  box-shadow: 0 0.8rem 1.2rem rgba(8, 20, 39, 0.2);
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0 0.4rem 1rem rgba(8, 20, 39, 0.4);
+  background: var(--blue-dark);
+  transform: scale(0.98);
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}

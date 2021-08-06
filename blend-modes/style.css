@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.pinneaple {
+  position: relative;
+  height: 100vh;
+  width: 100vh;
+}
+
+/* background blend-mode */
+[class^='box'] {
+  flex: 1;
+  width: 100%;
+  height: calc(100vh / 3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-image: url('img/pinneaple.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: multiply;
+  animation: slide 6s linear infinite;
+  mix-blend-mode: screen;
+}
+
+.box--r {
+  transform: translateY(0%);
+  background-color: rgb(255, 0, 0);
+  animation-direction: alternate;
+}
+
+.box--g {
+  transform: translateY(100%);
+  background-color: rgb(0, 255, 0);
+  animation-name: none;
+}
+
+.box--b {
+  transform: translateY(200%);
+  background-color: rgb(0, 0, 255);
+  animation-direction: alternate-reverse;
+}
+
+@keyframes slide {
+  0%,
+  5% {
+    transform: translateY(0%);
+  }
+  40%,
+  60% {
+    transform: translateY(100%);
+  }
+  95%,
+  100% {
+    transform: translateY(200%);
+  }
+}

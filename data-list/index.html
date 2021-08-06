@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Data List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    
+      <form>
+        <div class="datalist-wrap">
+          <label class="label">Countries <small>[type=text]</small></label>
+          <input type="text" list="countries" class="input" />
+          <datalist id="">
+            <option value="Alemania"></option>
+            <option value="Argentina"></option>
+            <option value="España"></option>
+            <option value="Estados Unidos"></option>
+            <option value="México"></option>
+            <option value="Venezuela"></option>
+          </datalist>
+        </div>
+        <div class="datalist-wrap">
+          <label class="label">Search <small>[type=search]</small></label>
+          <input type="search" list="searches" class="input" />
+          <datalist id="searches">
+            <option value="my previous search"></option>
+            <option value="always search"></option>
+            <option value="and old search"></option>
+          </datalist>
+        </div>
+       
+        
+        
+        
+        <div class="datalist-wrap">
+          <label class="label">Colors <small>[type=color]</small></label>
+          <input type="color" list="colors" class="input input-color" value="#1e2345" />
+          <datalist id="colors">
+            <option value="#e94bb4"></option>
+            <option value="#1e2345"></option>
+            <option value="#00c4d6"></option>
+            <option value="#ffffff"></option>
+          </datalist>
+        </div>
+
+        <div class="datalist-wrap">
+          <label class="label">Email <small>[type=email]</small></label>
+          <input type="email" list="emails" class="input" />
+          <datalist id="emails">
+            <option value="email@example.com">Principal email</option>
+            <option value="alternative@email.com">Alternative email</option>
+            <option value="another@example.com"></option>
+          </datalist>
+        </div>
+      
+    </form>
+    </main>
+  </body>
+</html>

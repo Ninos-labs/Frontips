@@ -1,0 +1,50 @@
+:root {
+  --bg: #1e2345;
+  --light: #d9e8f0;
+}
+
+body {
+  margin: 60px auto;
+  text-align: center;
+  background-color: var(--bg);
+  color: var(--light);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 6vw;
+  margin-bottom: 100px;
+}
+
+svg {
+  width: 60%;
+  transition: all 0.8s;
+}
+
+.main:hover svg {
+  transform: rotate(90deg);
+}
+
+/* 
+
+*
+*
+	multiple drop shadows 
+*
+*
+
+*/
+
+.main {
+  filter: drop-shadow(0 0 0 rgba(129, 238, 186, 0.8));
+  transition: filter 0.8s ease-in-out;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.main:hover {
+  filter: drop-shadow(10rem 0 0 rgba(129, 238, 186, 0.8)) 
+  drop-shadow(-10rem 0 0 rgba(129, 228, 238, 0.8)) 
+  drop-shadow(20rem 0 0 rgba(92, 219, 207, 0.8))
+  drop-shadow(-20rem 0 0 rgba(0, 207, 255, 0.8));
+}

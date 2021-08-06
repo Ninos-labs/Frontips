@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,423;0,500;0,600;0,700;1,200;1,300;1,400;1,423;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@font-face {
+  src: url('https://res.cloudinary.com/dr6lvwubh/raw/upload/v1529908256/CompressaPRO-GX.woff2');
+  font-family: 'Compressa VF';
+  font-style: normal;
+}
+
+:root {
+  --green: #00a896;
+  --bg: #dcedc8;
+  --blue: #05668d;
+  --purple: #776d8a;
+  --green-dark: #028090;
+  --green-light: #02c39a;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: var(--bg);
+  font-size: 10px;
+}
+
+.main {
+  width: 85%;
+}
+
+.fonts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+h1 {
+  font-weight: 100;
+  height: 200px;
+  margin: 0;
+  color: var(--green);
+  cursor: pointer;
+}
+
+p {
+  font-size: 2.8rem;
+  margin: 20px 30px;
+  color: var(--green-dark);
+}
+
+/* 
+AXIS (eje)
+Weight (wght) --	font-weight 
+Width (wdth) --	font-stretch
+Italic (ital) --	font-style
+Slant (slnt) 	--font-style
+Optical size (opsz) --	font-optical-sizing
+*/
+
+/* variable */
+
+.orbitron {
+  font-size: 10vw;
+  font-family: 'Orbitron', sans-serif;
+  font-variation-settings: 'wght' 100;
+  transition: all 0.6s ease 0s;
+  animation: magnify 4s infinite both;
+}
+
+.orbitron:hover {
+  font-variation-settings: 'wght' 900;
+}
+
+.roboto {
+  font-family: 'Roboto Mono', monospace;
+  font-variation-settings: 'wght' 900;
+}
+
+.compressa {
+  font-family: 'Compressa VF';
+  font-variation-settings: 'wght' 100, 'wdth' 200, 'ital' 1;
+}
+
+@keyframes magnify {
+  0% {
+    font-variation-settings: 'wght' 100, 'wdth' 80;
+    font-size: 10vw;
+    color: var(--green);
+  }
+  60% {
+    font-variation-settings: 'wght' 900, 'wdth' 600;
+    font-size: 5vw;
+    color: var(--green-dark);
+  }
+
+  100% {
+    font-variation-settings: 'wght' 100, 'wdth' 80;
+    font-size: 10vw;
+    color: var(--green-light);
+  }
+}

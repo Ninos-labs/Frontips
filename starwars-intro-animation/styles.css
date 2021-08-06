@@ -1,0 +1,58 @@
+:root {
+  --main: #ffb13a;
+  --font: 'Roboto', 'Oxygen', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  overflow: hidden;
+  background-color: black;
+  background-image: url(http://untroubled.org/backgrounds/space/stars.gif);
+  font-family: var(--font);
+  margin: 0;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 60px 0;
+  font-size: 5rem;
+}
+
+p {
+  font-size: 3rem;
+  line-height: 6rem;
+  margin-bottom: 20px;
+}
+
+.star-wars {
+  padding: 40px;
+  text-align: justify;
+  margin: 0 auto;
+  letter-spacing: 1.5px;
+  max-width: 1080px;
+  height: 800px;
+  transform: perspective(200px) rotateX(14deg);
+  animation: intro 25s linear infinite;
+}
+
+.star-wars :is(h2, p) {
+  color: var(--main);
+}
+
+@keyframes intro {
+  0% {
+    transform: perspective(200px) rotateX(14deg) translateY(800px);
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: perspective(200px) rotateX(20deg) translateY(-1000px);
+    opacity: 0;
+  }
+}

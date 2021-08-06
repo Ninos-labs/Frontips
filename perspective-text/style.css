@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+  --light: #d9e8f0;
+  --bg: #1e2345;
+  --bg-light: #108eb4;
+  --pink: #e94bb4;
+  --blue: #00c4d6;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(var(--bg) 40%, var(--bg-light));
+  color: var(--light);
+  font-size: 10px;
+}
+
+p {
+  margin: 0;
+  height: 5rem;
+  line-height: 5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+p span {
+  color: var(--pink);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.perspective-text {
+  color: var(--blue);
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 4.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.perspective-line {
+  height: 5rem;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--blue);
+}
+
+.perspective-text:hover p {
+  transform: translate(0, -77px);
+  color: var(--light);
+}
+
+.perspective-line:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective-line:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.333);
+}
+
+.perspective-line:nth-child(1) {
+  left: 0;
+}
+
+.perspective-line:nth-child(2) {
+  left: 46px;
+}
+
+.perspective-line:nth-child(3) {
+  left: 92px;
+}
+
+.perspective-line:nth-child(4) {
+  left: 137px;
+}
+
+.perspective-line:nth-child(5) {
+  left: 183px;
+}

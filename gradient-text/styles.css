@@ -1,0 +1,61 @@
+/* 
+General styles 
+*/
+:root {
+  --bg: #1e2345;
+  --violet: rgb(161, 132, 240);
+  --pink: #d60087;
+  --turquoise: #2fdabd;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Fredoka One", cursive;
+  background-color: var(--bg);
+}
+
+h1 {
+  margin: 0;
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+
+.gradient-text {
+  background-image: linear-gradient(45deg, var(--violet), var(--turquoise));
+  background-color: var(--violet);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.box {
+  background-color: var(--bg);
+  border-radius: 1.5rem;
+  display: grid;
+  height: calc(100vh - 27rem);
+  padding: 6rem;
+  place-items: center;
+}
+
+.gradient-border {
+  animation: gradient 5s linear infinite;
+  background: linear-gradient(100deg, var(--violet) 25%, var(--turquoise) 50%, var(--violet) 75%);
+  background-repeat: repeat;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 5rem;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: -80rem 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

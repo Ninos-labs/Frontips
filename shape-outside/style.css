@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --light: #d9e8f0;
+  --bg: #1e2345;
+  --bg-light: #108eb4;
+  --pink: #e94bb4;
+  --blue: #00c4d6;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(var(--bg) 40%, var(--bg-light));
+  color: var(--light);
+  font-size: 10px;
+}
+
+h1 {
+  color: var(--blue);
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+h2 {
+  margin-left: 8rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+.shape-wrap {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  padding: 5rem;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.circle {
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+}
+.circle.circle-three {
+  margin: 0 0 2rem 2rem;
+}
+/* polygon(0px 0px, 47.46% 18px, 61.88% 10.36%, 71.35% 24.85%, 75.16% 39.39%, 91.53% 48.7%, 83.77% 60.11%, 5px 61.47%); */
+.circle img {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.circle.circle-one,
+.circle.circle-three {
+  height: 450px;
+  width: 450px;
+}
+.circle.circle-one,
+.circle.circle-two {
+  margin: 0 2rem 2rem 0;
+}
+.polygon-1 img {
+  width: 100%;
+}
+
+.circle.circle-two {
+  height: 300px;
+  width: 300px;
+}
+/* VALUES
+  circle(): for making circular shapes.
+  ellipse(): for making elliptical shapes.
+  rectangle(): for making rectangular shapes
+  polygon(): for creating any shape with 3 or more vertices.
+ 
+*/
+
+.circle {
+  shape-outside: circle();
+}
+
+.polygon-1 {
+  height: 50rem;
+  shape-outside: polygon(0px 0px, 50.11% 2px, 64.45% 10.6%, 75.2% 24.85%, 78.15% 40.93%, 97.35% 50.71%, 89.92% 67.27%, 3px 67.46%);
+  width: 60%;
+}
+@media (min-width: 1300px) {
+  .polygon-1 {
+    shape-outside: polygon(0px 0px, 50.11% 2px, 64.45% 10.6%, 75.2% 24.85%, 78.15% 40.93%, 97.35% 50.71%, 97.38% 92.65%, -1px 92.6%);
+  }
+}
+
+@media (min-width: 1440px) {
+  .polygon-1 {
+    shape-outside: polygon(0px 0px, 50.11% 2px, 64.45% 10.6%, 75.2% 24.85%, 78.15% 40.93%, 97.35% 50.71%, 97.38% 92.65%, -1px 92.6%);
+  }
+
+  .polygon-1 img {
+    width: 80%;
+  }
+}

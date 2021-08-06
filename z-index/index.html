@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Z-Index</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="toppings-btn-wrap">
+        <h2>Toppings</h2>
+        <button data-topping="chocolate" class="btn btn-chocolate">Chocolate</button>
+        <button data-topping="caramel" class="btn btn-caramel">Caramel</button>
+        <button data-topping="cherry" class="btn btn-cherry">Cherry</button>
+      </div>
+      <button class="btn btn-show">
+        <svg fill="none" viewBox="0 0 20 20">
+          <defs />
+          <g fill="#fff" clip-path="url(#clip0)">
+            <path
+              d="M19.6867 9.40881a.693016.693016 0 00-.0624-.03738l-1.4193-.76427-7.8707 4.16714c-.2091.1107-.45947.1107-.66857 0L1.79504 8.60716l-1.419306.76427c-.34495.18311-.4762.61118-.293095.95617a.720802.720802 0 00.037375.0624L10 15.6207l9.88-5.2307c.2176-.3243.1311-.7636-.1933-.98119z"
+            />
+            <path
+              d="M19.9136 13.9464a.713646.713646 0 00-.2893-.2892l-1.4192-.7643-7.8708 4.1671c-.2091.1108-.45941.1108-.66851 0l-7.87073-4.1671-1.419303.7643c-.347168.1873-.47666.6206-.289286.9678.066169.1226.166741.2232.289286.2893l9.285723 5c.21136.1138.46582.1138.67712 0l9.2857-5c.3472-.1874.4767-.6207.2893-.9679zM19.6867 5.1231a.690598.690598 0 00-.0624-.03737L10.3386.085714c-.2114-.113797-.46578-.113797-.67714 0L.375734 5.08573c-.34495.1831-.4762.61117-.293095.95612a.714165.714165 0 00.037375.06245L10 11.335l9.88-5.2307c.2176-.32432.1311-.7636-.1933-.9812z"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0"><path fill="#fff" d="M0 0h20v20H0z" /></clipPath>
+          </defs>
+        </svg>
+        Show layers
+      </button>
+    </header>
+    <main>
+      <div class="popsicle">
+        <div class="topping topping-chocolate"></div>
+        <div class="topping topping-caramel"></div>
+        <div class="topping topping-cherry"></div>
+        <div class="lights">
+          <div class="light"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="flavor"></div>
+        <div class="drop"></div>
+        <div class="drip"></div>
+        <div class="popsicle-stick"></div>
+      </div>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
