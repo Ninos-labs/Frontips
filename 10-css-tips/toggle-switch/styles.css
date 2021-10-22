@@ -1,0 +1,63 @@
+:root {
+  --bg: #110921;
+  --purple: #3720b4;
+  --green: #5ff8c2;
+  --font: 'Roboto Mono', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 10px;
+  background-color: var(--bg);
+  font-family: var(--font);
+  padding: 10rem 0;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3vw;
+}
+.wrap-toggle {
+  padding: 5rem;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  background-color: var(--purple);
+  border-radius: 40px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.switch:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: white;
+  top: 5px;
+  left: 5px;
+  transition: all 0.3s;
+}
+
+input[type='checkbox']:checked + .switch:after {
+  transform: translateX(40px);
+  background-color: var(--bg);
+}
+
+input[type='checkbox']:checked + .switch {
+  background-color: var(--green);
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}

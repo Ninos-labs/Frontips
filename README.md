@@ -1,6 +1,10 @@
 # Frontips
 
-Frontips es una collección de tips de código HTML, CSS o JavaScritp.
+Frontips es una collección de tips de código HTML, CSS y JavaScritp.
+
+- [Toggle-switch](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/toggle-switch)
+
+- [Height-transition](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/height-transitions)
 
 - [Responsive Layout](https://github.com/Ninos-labs/Frontips/tree/master/Responsive-layout)
 

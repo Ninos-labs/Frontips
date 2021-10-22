@@ -1,0 +1,42 @@
+:root {
+  --white: #fff;
+  --blue: #4763ef;
+  --font: 'Roboto Mono', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 10px;
+  background-color: var(--blue);
+  font-family: var(--font);
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 3rem;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 4rem;
+  width: 60%;
+}
+
+.card h2 {
+  font-size: 3rem;
+  color: var(--blue);
+}
+
+.card-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.6s linear;
+}
+
+.card:hover > .card-content {
+  max-height: 300px;
+}
