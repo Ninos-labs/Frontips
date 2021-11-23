@@ -1,0 +1,47 @@
+:root {
+  --white: #fff;
+  --bg: #dbebfa;
+  --pink: #9b29b7;
+  --blue-dark: #4763ef;
+  --font: 'Roboto Mono', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  align-items: center;
+  background-color: var(--bg);
+  color: white;
+  display: flex;
+  font-size: 10px;
+  font-family: var(--font);
+  height: calc(100vh - 100px);
+  justify-content: center;
+}
+
+.underline {
+  color: var(--blue-dark);
+  font-size: 6rem;
+  display: inline-block;
+  position: relative;
+}
+
+.underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--pink);
+  transform-origin: bottom right;
+  transition: transform 0.6s ease-out;
+}
+
+.underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
