@@ -8,5 +8,5 @@ Cuenta regresiva para nuevo año con vanilla javaScript
 
 ## Más información
 
-- [Math.floot](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/floor/)
-- [Date - javascript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date)
+- [Math.floor](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/floor/)
+- [Date - javaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date)
