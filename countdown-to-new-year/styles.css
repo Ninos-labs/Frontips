@@ -1,0 +1,43 @@
+:root {
+  --bg: #110921;
+  --purple: #3720b4;
+  --green: #5ff8c2;
+  --font: 'Mountains of Christmas', cursive;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: var(--font);
+  padding: 10rem 0;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 8rem;
+  line-height: 8rem;
+}
+
+p {
+  font-size: 2.8rem;
+}
+
+.countdown {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}

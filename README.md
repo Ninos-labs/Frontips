@@ -4,6 +4,8 @@ Frontips es una collección de tips de código HTML, CSS y JavaScritp.
 
 - [triangles](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/triangles)
 
+- [countdown-to-new-year](https://github.com/Ninos-labs/Frontips/tree/master/countdown-to-new-year)
+
 - [Underline-animation](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/underline-animation)
 
 - [Toggle-switch](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/toggle-switch)
