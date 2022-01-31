@@ -1,0 +1,43 @@
+:root {
+  --bg: #110921;
+  --purple: #3720b4;
+  --green: #5ff8c2;
+  --font: "Roboto Mono", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 10px;
+  background-color: var(--bg);
+  font-family: var(--font);
+  padding: 10rem 0;
+  color: white;
+}
+
+h1 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+.flex-container {
+  border-radius: 6rem;
+  border: 0.6rem solid var(--green);
+  height: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 70%;
+  display: grid;
+  place-items: center;
+}
+
+.flex-item {
+  background-color: var(--green);
+  border-radius: 3rem;
+  color: var(--purple);
+  display: inline-block;
+  font-size: 2.6rem;
+  padding: 3rem 4rem;
+}

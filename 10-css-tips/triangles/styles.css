@@ -1,0 +1,89 @@
+:root {
+  --bg: #110921;
+  --blue-dark: #4763ef;
+  --orange: #e86e3c;
+  --green: #84f8cf;
+  --ocean: #06cae4;
+  --font: "Roboto Mono", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 10px;
+  background-color: var(--bg);
+  font-family: var(--font);
+  padding: 10rem 0 0;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+.wrap {
+  padding: 10rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.main-triangle {
+  width: 0;
+  height: 0;
+  border: 60px solid var(--blue-dark);
+  border-right-color: var(--ocean);
+  border-bottom-color: var(--green);
+  border-left-color: var(--orange);
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+}
+
+.triangle-up {
+  border-bottom: 60px solid var(--green);
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+}
+
+.triangle-down {
+  border-top: 60px solid var(--blue-dark);
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+}
+
+.triangle-left {
+  border-right: 60px solid var(--ocean);
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+}
+
+.triangle-right {
+  border-left: 60px solid var(--orange);
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+}
+
+.card {
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  position: relative;
+}
+
+.card::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: 100%;
+}
