@@ -14,3 +14,4 @@ Aquí encontraras tips muy sencillos que te ayudaran en tus desarrollos.
 - [Toggle-switch](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/toggle-switch)
 - [underline-animation](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/underlome-animation)
 - [triangles](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/triangles)
+- [center with flexbox and grid](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/center-flexbox-grid)
