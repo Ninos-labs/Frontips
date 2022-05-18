@@ -7,6 +7,8 @@ Aquí encontraras tips muy sencillos que te ayudaran en tus desarrollos.
 - [2.Toggle switch demo](https://youtu.be/a_o0y2c67ZI)
 - [3.underline animation demo](https://youtu.be/wQx6fIkmJpM)
 - [4.triangles demo](https://youtu.be/Zd2xjVtIFj8)
+- [5.center with flexbox and grid demo](https://youtu.be/5t7mgsZgfP8)
+- [6.truncate-text demo]()
 
 ### Repo:
 
@@ -15,3 +17,4 @@ Aquí encontraras tips muy sencillos que te ayudaran en tus desarrollos.
 - [underline-animation](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/underlome-animation)
 - [triangles](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/triangles)
 - [center with flexbox and grid](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/center-flexbox-grid)
+- [truncate-text](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/truncate-text-ellipsis)
