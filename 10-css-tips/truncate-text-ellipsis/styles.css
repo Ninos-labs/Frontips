@@ -1,0 +1,133 @@
+:root {
+  --bg: #332c67;
+  --purple: #5846a6;
+  --green: #77be85;
+  --pink: #df888e;
+  --font: "Roboto Mono", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  background-color: var(--bg);
+  font-family: var(--font);
+  padding: 10rem 0;
+  text-align: center;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-size: 3vw;
+  margin-bottom: 20rem;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  border-radius: 3rem;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: var(--green);
+  margin-top: -5px;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+
+.width-value {
+  margin-left: 5px;
+  font-size: 1.8rem;
+}
+
+.card {
+  background-color: var(--purple);
+  border-radius: 1.2rem;
+  position: relative;
+  grid-column: 1;
+  grid-row: 1;
+  transform-origin: top center;
+  transition: all 0.4s cubic-bezier(0.5, 0.35, 0.15, 1.4);
+  cursor: pointer;
+  width: inherit;
+  padding: 4rem;
+  z-index: 2;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.card-middle {
+  content: "";
+  background-color: var(--green);
+  position: absolute;
+  transform: rotate(4deg) translate(0, 4px);
+  position: relative;
+  z-index: 1;
+}
+
+.card-back {
+  background-color: var(--pink);
+  transform: rotate(-4deg) translate(3px, 5px);
+  z-index: 0;
+}
+
+.wrapper:hover .card {
+  transform: rotate(0);
+}
+
+.wrapper:hover .card-middle {
+  transform: translate(2px, -2px);
+}
+
+.wrapper:hover .card-back {
+  transform: translate(-2px, 2px);
+}
+
+.range {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.range p {
+  font-size: 1.4rem;
+}
+.wrapper {
+  display: grid;
+  width: 500px;
+}
+
+/* styles to truncate the text */
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
