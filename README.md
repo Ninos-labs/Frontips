@@ -2,6 +2,8 @@
 
 Frontips es una collección de tips de código HTML, CSS y JavaScritp.
 
+- [truncate-text](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/truncate-text-ellipsis)
+
 - [center with flexbox and grid](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/center-flexbox-grid)
 
 - [triangles](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/triangles)
