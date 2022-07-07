@@ -1,0 +1,164 @@
+:root {
+  --white: #fff;
+  --blue: #4763ef;
+  --green: #4cffec;
+  --blue-dark: #1e2345;
+  --ocean: #09d3ef;
+  --font: "Roboto Mono", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 10px;
+  background-color: var(--blue);
+  font-family: var(--font);
+  padding: 8rem 12rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.cursors {
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.cursors > li {
+  padding: 2.8rem 2rem;
+  border-radius: 1rem;
+  list-style: none;
+  background: var(--green);
+  text-align: center;
+  font-size: 2rem;
+  color: var(--blue-dark);
+  box-shadow: 6px 8px 0px 0 var(--ocean), 12px 14px 0px 0 var(--blue-dark);
+  transition: all 0.4s ease-in-out;
+}
+.cursors > li:hover {
+  transform: translateY(2px);
+  box-shadow: 4px 6px 0px 0 var(--ocean), 8px 10px 0px 0 var(--blue-dark);
+}
+
+.auto {
+  cursor: auto;
+}
+
+.default {
+  cursor: default;
+}
+
+.none {
+  cursor: none;
+}
+
+.context-menu {
+  cursor: context-menu;
+}
+
+.help {
+  cursor: help;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.progress {
+  cursor: progress;
+}
+
+.wait {
+  cursor: wait;
+}
+
+.cell {
+  cursor: cell;
+}
+
+.crosshair {
+  cursor: crosshair;
+}
+
+.text {
+  cursor: text;
+}
+
+.vertical-text {
+  cursor: vertical-text;
+}
+
+.alias {
+  cursor: alias;
+}
+
+.copy {
+  cursor: copy;
+}
+
+.move {
+  cursor: move;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.all-scroll {
+  cursor: all-scroll;
+}
+
+.zoom-in{
+  cursor: zoom-in;
+}
+
+.zoom-out{
+  cursor: zoom-out;
+}
+
+.col-resize {
+  cursor: col-resize;
+}
+
+.row-resize {
+  cursor: row-resize;
+}
+
+.n-resize {
+  cursor: n-resize;
+}
+
+.e-resize {
+  cursor: e-resize;
+}
+
+.s-resize {
+  cursor: s-resize;
+}
+
+.se-resize {
+  cursor: se-resize;
+}
+
+.ne-resize {
+  cursor: ne-resize;
+}
+
+
+.ew-resize {
+  cursor: ew-resize;
+}
+
+.ns-resize {
+  cursor: ns-resize;
+}
+.nesw-resize {
+  cursor: nesw-resize;
+}
