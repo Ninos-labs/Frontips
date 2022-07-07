@@ -2,7 +2,7 @@
 
 Frontips es una collección de tips de código HTML, CSS y JavaScritp.
 
-- [cursor-property](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/tcursor-property)
+- [cursor-property](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/cursor-property)
 
 - [truncate-text](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/truncate-text-ellipsis)
 
