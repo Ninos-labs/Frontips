@@ -2,21 +2,27 @@
 
 Frontips es una collección de tips de código HTML, CSS y JavaScritp.
 
-- [cursor-property](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/cursor-property)
+## Serie 10 simples tips de CSS
 
-- [truncate-text](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/truncate-text-ellipsis)
+- [8.custom-highlight-selection](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/custom-highlight-selection)
 
-- [center with flexbox and grid](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/center-flexbox-grid)
+- [7.cursor-property](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/cursor-property)
 
-- [triangles](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/triangles)
+- [6.truncate-text](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/truncate-text-ellipsis)
+
+- [5.center with flexbox and grid](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/center-flexbox-grid)
+
+- [4.triangles](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/triangles)
+
+- [3.Underline-animation](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/underline-animation)
+
+- [2.Toggle-switch](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/toggle-switch)
+
+- [1.Height-transition](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/height-transitions)
+
+## Collections
 
 - [countdown-to-new-year](https://github.com/Ninos-labs/Frontips/tree/master/countdown-to-new-year)
-
-- [Underline-animation](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/underline-animation)
-
-- [Toggle-switch](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/toggle-switch)
-
-- [Height-transition](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/height-transitions)
 
 - [Responsive Layout](https://github.com/Ninos-labs/Frontips/tree/master/Responsive-layout)
 

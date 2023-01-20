@@ -1,0 +1,119 @@
+
+:root {
+  --bg: #110921;
+  --bg-dark: #191c29;
+  --bg-light: #dbebfa;
+  --blue:#09d3ef ;
+  --green: #5ff8c2;
+  --pink: #9b29b7;
+  --purple: #4763ef;
+  --white: #fff;
+  --font: 'Roboto Mono', sans-serif;
+}
+
+
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: var(--bg);
+  padding: 10rem 20rem 0;
+  font-size: 10px;
+  font-family: var(--font);
+  
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 10rem;
+  color: white;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+@media screen and (max-width: 1140px) {
+  body {
+    padding: 10rem 10rem 0;
+  }
+  .wrapper {  
+    gap: 3rem;
+  }
+  
+}
+
+.card {
+  background-color:  var(--bg-dark);
+  padding: 2.8rem;
+  position: relative;
+}
+
+.card,
+.card::before {
+  border-radius: 4rem;
+}
+
+.card::before,
+.card::after {
+  content:'';
+  position: absolute;
+  z-index: -1;
+}
+
+.card::before {
+  background-image: linear-gradient(
+    0deg, #5ddcff, #3c67e3 43%, #4e00c2);
+  height: 102%;
+  left: -1%;
+  top: -1%;
+  width: 102%;
+}
+
+.card::after {
+  background-image: linear-gradient(
+    19deg, #5ddcff, #3c67e3 43%, #4e00c2);
+  filter: blur(5rem);
+  height: 90%;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 90%;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: white;
+}
+
+p span {
+  padding: 0 0.4rem;
+}
+
+.card-purple p::selection,
+.card-purple span {
+  background-color: var(--purple);
+}
+
+.card-green p::selection, 
+.card-green span {
+  background-color: var(--green);
+  color: var(--bg-dark);
+}
+
+.card-pink p::selection,
+.card-pink span  {
+  background-color: var(--pink);
+}
+
+.card-blue p::selection,
+.card-blue span {
+  background-color: var(--blue);
+  color: var(--bg-dark);
+}
