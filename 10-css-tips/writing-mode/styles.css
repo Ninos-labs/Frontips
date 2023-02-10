@@ -1,0 +1,76 @@
+:root {
+
+  --pink: #9b29b7;
+  --blue-dark: #4763ef;
+  --blue-light: #dbebfa;
+  --yellow: #c5fa2d;
+  --font: "Roboto Mono", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  background-color: var(--blue-dark);
+  font-family: var(--font);
+  padding: 10rem 0;
+  text-align: center;
+  color: var(--blue-light);
+  display: grid;
+  place-items: center;
+}
+
+.flex {
+  display: flex;
+  text-align: start;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--yellow);
+  font-size: 9rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-size: 7em;
+  margin:  1.2rem 0 0 2rem;
+  line-height: 6rem;
+  color: var(--yellow);
+}
+
+p {
+  font-size:2rem;
+  margin: 3rem 2rem 0;
+ }
+
+.wrapper-one {
+  width: 45%;
+}
+
+.wrapper-two {
+  height: 28%;
+}
+
+.vertical-lr {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+
+
+
+
+
