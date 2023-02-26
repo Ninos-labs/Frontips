@@ -1,0 +1,48 @@
+:root {
+  --bg: #110921;
+  --bg-dark: #191c29;
+  --bg-light: #dbebfa;
+  --blue:#09d3ef ;
+  --green: #5ff8c2;
+  --pink: #9b29b7;
+  --purple: #4763ef;
+  --white: #fff;
+  --font: 'Roboto Mono', sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 200px);
+}
+
+img:nth-child(1){
+  grid-column: 1 /3;
+  grid-row: 1 / 3;
+}
+
+img:nth-child(3){
+  grid-column: 3;
+  grid-row: 2 / 4;
+}
+
+img:nth-child(4){
+  grid-row: 3 / 6;
+}
+
+img:nth-child(6){
+  grid-column: 2 / 4;
+  grid-row: 4 / 6;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+

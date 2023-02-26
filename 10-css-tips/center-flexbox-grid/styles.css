@@ -29,12 +29,9 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
   width: 70%;
+
   display: grid;
   place-items: center;
-  display: grid;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .flex-item {

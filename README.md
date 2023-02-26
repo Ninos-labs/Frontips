@@ -4,6 +4,8 @@ Frontips es una collección de tips de código HTML, CSS y JavaScritp.
 
 ## Serie 10 simples tips de CSS
 
+- [10.object-fit](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/object-fit)
+
 - [9.writing-mode](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/writing-mode)
 
 - [8.custom-highlight-selection](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/custom-highlight-selection)

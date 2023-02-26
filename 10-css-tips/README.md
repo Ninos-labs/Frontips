@@ -10,6 +10,8 @@ Aquí encontraras tips muy sencillos que te ayudaran en tus desarrollos.
 - [5.center with flexbox and grid demo](https://youtu.be/5t7mgsZgfP8)
 - [6.truncate-text demo](https://youtu.be/1_A-97JCwBY)
 - [7.cursor-property demo](https://youtu.be/l_EM9uw4dwo)
+- [8.custom-highlight-selection demo](https://youtu.be/bCG-10ghfGI)
+- [9.writing-mode demo](https://youtu.be/zcndIrZkaxM)
 
 ### Repo:
 
@@ -21,5 +23,5 @@ Aquí encontraras tips muy sencillos que te ayudaran en tus desarrollos.
 - [6.truncate-text](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/truncate-text-ellipsis)
 - [7.cursor-property](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/cursor-property)
 - [8.custom-highlight-selection](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/custom-highlight-selection)
-
 - [9.writing-mode](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/writing-mode)
+- [10.object-fit](https://github.com/Ninos-labs/Frontips/tree/master/10-css-tips/object-fit)
