@@ -26,6 +26,8 @@ Frontips es una collección de tips de código HTML, CSS y JavaScritp.
 
 ## Collections
 
+- [SVG Animation](https://github.com/Ninos-labs/Frontips/tree/master/svg-animation)
+
 - [countdown-to-new-year](https://github.com/Ninos-labs/Frontips/tree/master/countdown-to-new-year)
 
 - [Responsive Layout](https://github.com/Ninos-labs/Frontips/tree/master/Responsive-layout)
