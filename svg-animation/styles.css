@@ -1,0 +1,99 @@
+
+:root {
+  --bg-dark: #020111;
+  --bg-light: #3a3a52;
+  --blue:#09d3ef;
+  --purple: #4763EF;
+  --flame: #EF9847;
+  --flame-light: #EFB647;
+  --white: #fff;
+  --font: 'Roboto Mono', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: linear-gradient(to bottom,var(--bg-dark) 40%,var(--bg-light) 100%);
+  color: var( --blue);
+  font-family: var(--font);
+  font-size: 10px;
+  height: 100vh;
+  padding: 5rem 20rem 0;
+}
+
+h1 {
+  margin-bottom: 5rem;
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  height: calc(100vh - 10rem);
+}
+
+.rocket {
+  width: 400px;
+  height: auto;
+  transform: rotate(45deg);
+}
+
+#ship {
+  fill: var(--purple);
+}
+
+#flame-front { 
+  fill: var(--flame-light);
+}
+
+#flame-back {
+  fill: var(--flame);
+}
+
+#flame {
+  animation: fire .2s infinite;
+  transform-origin: center;
+}
+
+@keyframes fire {
+  0% { transform: scale(0.95);}
+  100% { transform: scale(1);}
+}
+
+.rocket-animation { 
+  animation: launch 3s linear;
+  transform-origin: center;
+}
+
+@keyframes launch {
+  0% { transform: rotate(45deg);}
+  20% { transform: rotate(0deg);}
+  60% { transform: translateY(-100px)}
+  100% { transform: translateY(-1000px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
